@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ethanbarlow kitchenscene.ma
-//Last modified: Wed, Sep 16, 2026 01:52:10 PM
+//Last modified: Wed, Sep 16, 2026 01:54:03 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "chairmesh3" -rfn "chairmesh2RN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/ethan/GitRepos/Essentials/DAGV1100and1200/Maya//assets/chairmesh2.ma";
@@ -34,11 +34,11 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "FDC5C17B-004F-8284-0587-4E83019D09B4";
+fileInfo "UUID" "ECF0993F-F045-26F8-C6D5-D8981515BCCE";
 createNode transform -s -n "persp";
 	rename -uid "12139952-BC4A-4EDF-A3B3-4EAB86A90A5E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -53.083687928780975 36.787108704831226 -34.037844165034649 ;
+	setAttr ".t" -type "double3" -53.454952668626838 36.787108704831226 -33.429614882246575 ;
 	setAttr ".r" -type "double3" -27.938352211232534 -121.39999999964452 0 ;
 	setAttr ".rp" -type "double3" -3.3306690738754696e-16 8.8817841970012523e-16 0 ;
 	setAttr ".rpt" -type "double3" 9.0367373182379994e-16 -1.3119263268481186e-16 -3.4275941727371513e-17 ;
