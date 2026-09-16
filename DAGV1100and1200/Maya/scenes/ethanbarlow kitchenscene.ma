@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ethanbarlow kitchenscene.ma
-//Last modified: Wed, Sep 16, 2026 01:01:19 AM
+//Last modified: Wed, Sep 16, 2026 01:13:54 AM
 //Codeset: UTF-8
 file -rdi 1 -ns "chairmesh3" -rfn "chairmesh2RN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/ethan/GitRepos/Essentials/DAGV1100and1200/Maya//assets/chairmesh2.ma";
@@ -32,11 +32,11 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "C49B6C0F-C34E-EF33-9746-ABA6B6CD4F5B";
+fileInfo "UUID" "5711B9DA-214C-D6DA-5AF6-A4A90F4BC22C";
 createNode transform -s -n "persp";
 	rename -uid "12139952-BC4A-4EDF-A3B3-4EAB86A90A5E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -34.503856758464067 24.357293416428746 -22.141786412103425 ;
+	setAttr ".t" -type "double3" -23.108465458662845 17.631454449234134 -15.186009855314285 ;
 	setAttr ".r" -type "double3" -26.738352211258206 -121.39999999968946 0 ;
 	setAttr ".rp" -type "double3" -3.3306690738754696e-16 8.8817841970012523e-16 0 ;
 	setAttr ".rpt" -type "double3" 9.0367373182379994e-16 -1.3119263268481186e-16 -3.4275941727371513e-17 ;
@@ -44,7 +44,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C3128C26-2A44-436F-6405-AC87FAFC1E00";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 48.666884562482636;
+	setAttr ".coi" 33.717815019658829;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
