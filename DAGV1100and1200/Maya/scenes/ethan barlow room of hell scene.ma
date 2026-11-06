@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ethan barlow room of hell scene.ma
-//Last modified: Fri, Nov 06, 2026 03:44:50 AM
+//Last modified: Fri, Nov 06, 2026 07:07:29 AM
 //Codeset: UTF-8
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "1F447699-BE4F-4212-7E03-B1A173D43F0E";
+fileInfo "UUID" "A1ECB8D8-4A4A-73A4-F8AA-A1B46BCBC553";
 createNode transform -s -n "persp";
 	rename -uid "9A8FC108-654A-B51A-5876-F3AB2932E1C4";
 	setAttr ".v" no;
@@ -182686,7 +182686,6 @@ createNode lambert -n "marble2";
 createNode shadingEngine -n "lambert19SG";
 	rename -uid "6D061724-D449-9147-A48A-A8BA8E547887";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo36";
 	rename -uid "99E4E059-1046-E921-3AFF-F49485520911";
@@ -182697,7 +182696,7 @@ createNode file -n "marble1";
 createNode place2dTexture -n "place2dTexture18";
 	rename -uid "8CF99760-594E-CC50-6923-D6B87B94F078";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "E550ABBA-F84D-15D9-8CDB-A0AA64E23FE0";
+	rename -uid "ACFAF9A4-E94C-4EE7-CED1-D3BA57692898";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -155596.51668372232 -3474.4576648606071 ;
 	setAttr ".tgi[0].vh" -type "double2" -149561.94596641892 3676.5792975645168 ;
